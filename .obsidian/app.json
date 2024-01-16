@@ -1,5 +1,6 @@
 {
   "autoConvertHtml": false,
   "attachmentFolderPath": "./imgs",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newFileLocation": "current"
 }

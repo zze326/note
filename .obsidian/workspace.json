@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cce9b3042d4027b4",
+        "id": "a65efbe4ab82509f",
         "type": "tabs",
         "children": [
           {
-            "id": "e89d15af53583169",
+            "id": "3d0df61923c1025d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/kubectl 常用命令.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -120,13 +124,21 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "3b9a0e1303ddc69f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,6 +150,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e89d15af53583169",
-  "lastOpenFiles": []
+  "active": "3b9a0e1303ddc69f",
+  "lastOpenFiles": [
+    "kubernetes/kubectl 常用命令.md",
+    "kubernetes"
+  ]
 }
