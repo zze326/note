@@ -1,0 +1,2 @@
+- [二进制包形式安装MySQL5.7](https://www.zze.xyz/archives/mysql1.html)
+- [同主机配置MySQL多实例](https://www.zze.xyz/archives/msyql-multi-instance.html)
