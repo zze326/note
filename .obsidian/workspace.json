@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95e42277e2c788e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/kubectl 常用命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "kubernetes/kubectl 常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "kubernetes/kubectl 常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "kubernetes/kubectl 常用命令.md"
+              }
             }
           },
           {
@@ -134,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,9 +167,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3b9a0e1303ddc69f",
+  "active": "95e42277e2c788e9",
   "lastOpenFiles": [
+    "shells/清理 Helm release secret.md",
     "kubernetes/kubectl 常用命令.md",
+    "shells",
     "kubernetes"
   ]
 }
