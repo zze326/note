@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,7 +155,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4b8e523cdc879da4",
+  "active": "739d214ff9777925",
   "lastOpenFiles": [
     "部署文档/一键部署 Docker.md",
     "Kubernetes 相关/README.md",
