@@ -8,6 +8,7 @@
 2. `hostNetwork`：使用宿主机的网络；
 3. `nodeSelector`：添加标签选择器（可选）；
 4. 将名为 `ingress-nginx-controller` 的 `Service` 类型改为 `ClusterIP`（要删除 `externalTrafficPolicy` 字段）；
+
 如：
 ```yaml
 apiVersion: apps/v1
