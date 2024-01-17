@@ -1,11 +1,13 @@
 下载二进制压缩包：
 ```bash
-$ wget https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/docker-20.10.9.tgz
+$ wget https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/docker-24.0.7.tgz
 ```
+> [点击获取其它版本](https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/)。
+
 解压到指定目录：
 ```bash
 $ mkdir /opt/docker
-$ tar xf docker-20.10.9.tgz -C /opt/docker
+$ tar xf docker-24.0.7.tgz -C /opt/docker
 ```
 创建软链接到 `/usr/local/bin`：
 ```bash
@@ -22,7 +24,7 @@ $ vim /etc/docker/daemon.json
     "https://docker.mirrors.ustc.edu.cn",
     "http://hub-mirror.c.163.com"
   ],
-  "insecure-registries": ["registry.xyb2b.com.cn"],   
+  "insecure-registries": ["registry.zze.xyz"],   
   "max-concurrent-downloads": 10,
   "log-driver": "json-file",
   "log-level": "warn",

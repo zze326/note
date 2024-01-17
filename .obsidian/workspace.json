@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "部署文档/一键部署 Docker.md",
+                "file": "部署文档/二进制包部署 Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "部署文档/一键部署 Docker.md",
+                "file": "部署文档/二进制包部署 Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "部署文档/一键部署 Docker.md",
+                "file": "部署文档/二进制包部署 Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "部署文档/一键部署 Docker.md"
+                "file": "部署文档/二进制包部署 Docker.md"
               }
             }
           },
@@ -154,10 +154,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0d17ec6a7375be8e",
+  "active": "4b8e523cdc879da4",
   "lastOpenFiles": [
-    "Kubernetes 相关/README.md",
     "部署文档/一键部署 Docker.md",
+    "Kubernetes 相关/README.md",
     "部署文档/Docker 部署 Minio.md",
     "部署文档/Docker 部署 Kuboard.md",
     "部署文档/Docker 部署 Gitlab.md",
