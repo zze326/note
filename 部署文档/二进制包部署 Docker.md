@@ -6,8 +6,7 @@ $ wget https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/docker-
 
 解压到指定目录：
 ```bash
-$ mkdir /opt/docker
-$ tar xf docker-24.0.7.tgz -C /opt/docker
+$ tar xf docker-24.0.7.tgz -C /opt
 ```
 创建软链接到 `/usr/local/bin`：
 ```bash
