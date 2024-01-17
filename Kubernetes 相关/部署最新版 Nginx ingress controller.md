@@ -4,9 +4,9 @@
 - 裸文件下载地址：<https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml>
 # 修改
 有如下几处可按需修改
-1. `hostNetwork`：使用宿主机的网络；
-2. `nodeSelector`：添加标签选择器（可选）；
-3. `DaemonSet`：修改 `Deployment` 为 `DaemonSet`，移除 `strategy` 字段；
+1. `DaemonSet`：修改 `Deployment` 为 `DaemonSet`，移除 `strategy` 字段；
+2. `hostNetwork`：使用宿主机的网络；
+3. `nodeSelector`：添加标签选择器（可选）；
 4. 将名为 `ingress-nginx-controller` 的 `Service` 类型改为 `ClusterIP`（要删除 `externalTrafficPolicy` 字段）；
 如：
 ```yaml
