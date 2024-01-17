@@ -2,7 +2,7 @@
 ```bash
 $ wget https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/docker-24.0.7.tgz
 ```
-> [点击获取其它版本](https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/)。
+> [点击获取更多版本](https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/)。
 
 解压到指定目录：
 ```bash

@@ -2,6 +2,7 @@
 ```bash
 wget https://repo.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-linux-x64.tar.gz
 ```
+> [点击获取更多版本](https://repo.huaweicloud.com/java/jdk/)。
 解压安装：
 ```bash
 tar xf jdk-8u202-linux-x64.tar.gz -C /usr/local

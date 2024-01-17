@@ -4,6 +4,7 @@
 ```bash
 $ wget https://mirrors.tuna.tsinghua.edu.cn/apache/rocketmq/5.0.0/rocketmq-all-5.0.0-bin-release.zip
 ```
+> [点击获取更多版本](https://mirrors.tuna.tsinghua.edu.cn/apache/rocketmq/)。
 解压到安装目录并建立软链接：
 ```bash
 $ unzip rocketmq-all-5.0.0-bin-release.zip -d /opt/
