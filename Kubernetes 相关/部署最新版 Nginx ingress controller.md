@@ -401,7 +401,7 @@ spec:
   type: ClusterIP
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: DaemonSet
 metadata:
   labels:
     app.kubernetes.io/component: controller
@@ -432,6 +432,7 @@ spec:
         app.kubernetes.io/part-of: ingress-nginx
         app.kubernetes.io/version: 1.9.5
     spec:
+      hostNetwork: true  #这里加一句
       containers:
       - args:
         - /nginx-ingress-controller
