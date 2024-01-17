@@ -8,10 +8,10 @@ $ wget https://repo.huaweicloud.com/docker-ce/linux/static/stable/x86_64/docker-
 ```bash
 $ tar xf docker-24.0.7.tgz -C /opt
 ```
-创建软链接到 `/usr/local/bin`：
+创建二进制可执行文件软链接到 `/usr/bin` 目录下：
 ```bash
 $ cd /opt/docker
-$ ls | xargs -i ln -s /opt/docker/{} /usr/bin/
+$ ls --color=never | xargs -i ln -s /opt/docker/{} /usr/bin/
 ```
 创建配置文件：
 ```bash
