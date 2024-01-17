@@ -3,7 +3,7 @@
 -  git 文件地址：<https://github.com/kubernetes/ingress-nginx/blob/main/deploy/static/provider/cloud/deploy.yaml>
 - 裸文件下载地址：<https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml>
 # 修改
-有如下几处可按需修改
+有如下几处可按需修改：
 1. `DaemonSet`：修改 `Deployment` 为 `DaemonSet`，移除 `strategy` 字段；
 2. `hostNetwork`：使用宿主机的网络；
 3. `nodeSelector`：添加标签选择器（可选）；
