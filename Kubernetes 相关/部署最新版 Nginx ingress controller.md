@@ -5,9 +5,9 @@
 # 修改
 有如下几处可按需修改
 1. `hostNetwork`：使用宿主机的网络；
-2. `nodeSelector`：添加标签选择器；
-3. `DaemonSet`：修改 `Deployment` 为 `DaemonSet`；
-4. 删除原有名为 `ingress-nginx-controller` 的 `Service`；
+2. `nodeSelector`：添加标签选择器（可选）；
+3. `DaemonSet`：修改 `Deployment` 为 `DaemonSet`，移除 `strategy` 字段；
+4. 将名为 `ingress-nginx-controller` 的 `Service` 类型改为 `ClusterIP`（要删除 `externalTrafficPolicy` 字段）；
 如：
 ```yaml
 apiVersion: apps/v1
@@ -33,7 +33,8 @@ spec:
         app.kubernetes.io/name: ingress-nginx
     spec:
       hostNetwork: true  #这里加一句
-      nodeSelector:
+      # 移除 strategy
+      nodeSelector: # 可选
         kubernetes.io/os: linux
         hasIngress: "true"  # 在存在这个标签的 node 上部署
       containers:
@@ -386,6 +387,38 @@ metadata:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
     app.kubernetes.io/version: 1.9.5
+  name: ingress-nginx-controller
+  namespace: ingress-nginx
+spec:
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - appProtocol: http
+    name: http
+    port: 80
+    protocol: TCP
+    targetPort: http
+  - appProtocol: https
+    name: https
+    port: 443
+    protocol: TCP
+    targetPort: https
+  selector:
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
+    app.kubernetes.io/part-of: ingress-nginx
+    app.kubernetes.io/version: 1.9.5
   name: ingress-nginx-controller-admission
   namespace: ingress-nginx
 spec:
@@ -419,10 +452,6 @@ spec:
       app.kubernetes.io/component: controller
       app.kubernetes.io/instance: ingress-nginx
       app.kubernetes.io/name: ingress-nginx
-  strategy:
-    rollingUpdate:
-      maxUnavailable: 1
-    type: RollingUpdate
   template:
     metadata:
       labels:
