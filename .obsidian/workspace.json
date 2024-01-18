@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
+                "file": "操作文档/Ubuntu 20 系统初始化配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
+                "file": "操作文档/Ubuntu 20 系统初始化配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
+                "file": "操作文档/Ubuntu 20 系统初始化配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes 相关/部署最新版 Nginx ingress controller.md"
+                "file": "操作文档/Ubuntu 20 系统初始化配置.md"
               }
             }
           },
@@ -156,19 +156,20 @@
   },
   "active": "9a8198efcfbb5d05",
   "lastOpenFiles": [
+    "部署文档/Docker 部署 Minio.md",
+    "操作文档/Ubuntu 20 系统初始化配置.md",
+    "部署文档/Docker 部署 Gitlab.md",
+    "部署文档/一键部署 Docker.md",
+    "部署文档/Docker 部署 Kuboard.md",
+    "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
     "Kubernetes 相关/kubectl 常用命令.md",
     "Kubernetes 相关/README.md",
     "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
-    "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
-    "部署文档/Docker 部署 Gitlab.md",
     "部署文档/二进制包部署 Docker.md",
     "部署文档/二进制包部署 JDK.md",
     "部署文档/二进制包部署 RocketMQ.md",
-    "部署文档/一键部署 Docker.md",
-    "部署文档/Docker 部署 Kuboard.md",
     "Kubernetes 相关/清理 Helm release secret.md",
     "操作文档/扩展 LVM 分区.md",
-    "部署文档/Docker 部署 Minio.md",
     "部署文档/README.md",
     "部署文档",
     "操作文档",
