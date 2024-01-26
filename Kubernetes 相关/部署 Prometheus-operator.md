@@ -1,0 +1,1 @@
+git 仓库：<https://github.com/prometheus-operator/kube-prometheus>。
