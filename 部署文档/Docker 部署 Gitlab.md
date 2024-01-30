@@ -1,4 +1,5 @@
 官方部署文档：<https://docs.gitlab.cn/jh/install/>。
+
 一键部署：
 ```bash
 GITLAB_DATA_DIR='/data/gitlab'
