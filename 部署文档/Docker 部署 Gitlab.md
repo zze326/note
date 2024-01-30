@@ -1,3 +1,4 @@
+官方部署文档：<https://docs.gitlab.cn/jh/install/>。
 一键部署：
 ```bash
 GITLAB_DATA_DIR='/data/gitlab'
@@ -28,7 +29,7 @@ backupDir="/data/gitlab/data/backups"
 backupFile=`ls -t ${backupDir} | head -n1`
 backupFilePath="${backupDir}/${backupFile}"
 echo "备份文件路径: ${backupFilePath}"
-/usr/local/bin/ossutil cp ${backupFilePath} oss://azj-devops/backup/gitlab/${backupFile}
+/usr/local/bin/ossutil cp ${backupFilePath} oss://devops/backup/gitlab/${backupFile}
 [ $? -eq 0 ] && echo "上传备份文件到 oss 成功" && rm -rf ${backupDir}/*
 ```
 > 此脚本是使用 `ossutil` 将备份文件上传到阿里云 oss 以备份，所以 `ossutil` 需自行安装配置好。
