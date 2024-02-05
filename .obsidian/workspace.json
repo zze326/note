@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "部署文档/Docker 部署 Gitlab.md",
+                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "部署文档/Docker 部署 Gitlab.md",
+                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "部署文档/Docker 部署 Gitlab.md",
+                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "部署文档/Docker 部署 Gitlab.md"
+                "file": "操作文档/查看远程镜像关联的 Tag 列表.md"
               }
             }
           },
@@ -156,6 +156,9 @@
   },
   "active": "6265cdbbb2e67329",
   "lastOpenFiles": [
+    "部署文档/Docker 部署 Gitlab.md",
+    "操作文档/查看远程镜像关联的 Tag 列表.md",
+    "操作文档/腾讯云对象存储 CLI 简单使用.md",
     "Kubernetes 相关/部署 Prometheus-operator.md",
     "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
     "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
@@ -167,7 +170,6 @@
     "操作文档/Ubuntu 20 系统初始化配置.md",
     "部署文档/README.md",
     "部署文档/Docker 部署 Minio.md",
-    "部署文档/Docker 部署 Gitlab.md",
     "部署文档/一键部署 Docker.md",
     "部署文档/Docker 部署 Kuboard.md",
     "部署文档/二进制包部署 Docker.md",
