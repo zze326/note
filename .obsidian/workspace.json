@@ -11,12 +11,8 @@
             "id": "6265cdbbb2e67329",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "操作文档/查看远程镜像关联的 Tag 列表.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,8 +148,18 @@
   },
   "active": "6265cdbbb2e67329",
   "lastOpenFiles": [
-    "部署文档/Docker 部署 Gitlab.md",
+    "Shell其实很简单/2. 探索Shell世界：Bash、Zsh、Fish等各类Shell的特点与实战.md",
+    "Shell其实很简单/1. 什么是Shell及其在操作系统中的角色.md",
+    "操作文档/Zsh & Fish 安装.md",
+    "部署文档/二进制包部署 RocketMQ.md",
+    "Shell其实很简单/imgs/shell.png",
+    "部署文档/Docker 部署 Kuboard.md",
+    "Shell其实很简单/imgs",
+    "Shell其实很简单",
+    "Linux基础/1. 终端和交互式接口.md",
+    "Linux基础",
     "操作文档/查看远程镜像关联的 Tag 列表.md",
+    "部署文档/Docker 部署 Gitlab.md",
     "操作文档/腾讯云对象存储 CLI 简单使用.md",
     "Kubernetes 相关/部署 Prometheus-operator.md",
     "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
@@ -171,10 +173,8 @@
     "部署文档/README.md",
     "部署文档/Docker 部署 Minio.md",
     "部署文档/一键部署 Docker.md",
-    "部署文档/Docker 部署 Kuboard.md",
     "部署文档/二进制包部署 Docker.md",
     "部署文档/二进制包部署 JDK.md",
-    "部署文档/二进制包部署 RocketMQ.md",
     "操作文档/扩展 LVM 分区.md",
     "部署文档",
     "操作文档",
