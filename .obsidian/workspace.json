@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b0259dbe9d2ac3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作文档/nano 使用说明.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作文档/Zsh & Fish 安装.md",
+                "file": "操作文档/nano 使用说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作文档/Zsh & Fish 安装.md",
+                "file": "操作文档/nano 使用说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作文档/Zsh & Fish 安装.md"
+                "file": "操作文档/nano 使用说明.md"
               }
             }
           },
@@ -154,11 +167,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6265cdbbb2e67329",
+  "active": "0b0259dbe9d2ac3a",
   "lastOpenFiles": [
+    "操作文档/Zsh & Fish 安装.md",
+    "操作文档/nano 使用说明.md",
     "Shell其实很简单/2. 探索Shell世界：Bash、Zsh、Fish等各类Shell的特点与实战.md",
     "Shell其实很简单/1. 什么是Shell及其在操作系统中的角色.md",
-    "操作文档/Zsh & Fish 安装.md",
     "部署文档/二进制包部署 RocketMQ.md",
     "Shell其实很简单/imgs/shell.png",
     "部署文档/Docker 部署 Kuboard.md",
