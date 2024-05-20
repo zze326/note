@@ -16,5 +16,5 @@ PS1='\d \t \u@\h:\w\$ '
 ```
 - 自用
 ```bash
-export PS1='\e[1;32m\u\e[m\e[1;33m@\e[m\e[1;35m\H\e[m\e[4m:`pwd`\e[m\n$ '
+export PS1='\e[1;32m\u\e[m\e[1;33m@\e[m\e[1;35m\H\e[m\e[4m:`pwd`\e[m\n\$ '
 ```
