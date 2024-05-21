@@ -1,3 +1,4 @@
+文件系统层次结构标准（英语：Filesystem Hierarchy Standard，FHS）定义了Linux操作系统中的主要目录及目录内容。
 
 <table class="wikitable" style="vertical-align: top; width: 100%" summary="一个层次结构的描述，FHS标准规定。">
 
