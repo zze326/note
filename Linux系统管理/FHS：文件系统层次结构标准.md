@@ -232,3 +232,5 @@
 <td>代替/var/run目录。
 </td></tr>
 </tbody></table>
+
+> - <https://zh.wikipedia.org/zh-cn/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84%E6%A0%87%E5%87%86>
