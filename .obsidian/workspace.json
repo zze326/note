@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31d9d8af2d56c6f1",
+        "id": "7ac10fe503d66089",
         "type": "tabs",
         "children": [
           {
-            "id": "250a9f1fa947e4c2",
+            "id": "55d67cd513e98c43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux系统管理/FHS：文件系统层次结构标准.md",
+                "file": "Linux系统管理/用户管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux系统管理/FHS：文件系统层次结构标准.md",
+                "file": "Linux系统管理/用户管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux系统管理/FHS：文件系统层次结构标准.md",
+                "file": "Linux系统管理/用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux系统管理/FHS：文件系统层次结构标准.md"
+                "file": "Linux系统管理/用户管理.md"
               }
             }
           },
@@ -154,10 +154,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "250a9f1fa947e4c2",
+  "active": "55d67cd513e98c43",
   "lastOpenFiles": [
-    "Linux系统管理/PS1：配置命令提示符.md",
+    "Linux系统管理/用户管理.md",
     "Linux系统管理/FHS：文件系统层次结构标准.md",
+    "Linux系统管理/man page.md",
+    "Linux系统管理/PS1：配置命令提示符.md",
     "Linux系统管理/ANSI转义序列.md",
     "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
     "Linux系统管理",
@@ -185,8 +187,6 @@
     "操作文档/Ubuntu 20 系统初始化配置.md",
     "部署文档/README.md",
     "部署文档/Docker 部署 Minio.md",
-    "部署文档/一键部署 Docker.md",
-    "部署文档/二进制包部署 Docker.md",
     "部署文档",
     "操作文档",
     "Kubernetes 相关"
