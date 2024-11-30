@@ -1,49 +1,68 @@
 {
   "main": {
-    "id": "c64d4cae847b542d",
+    "id": "567eadbff1e4e0e5",
     "type": "split",
     "children": [
       {
-        "id": "7ac10fe503d66089",
+        "id": "d0def31af83a630f",
         "type": "tabs",
         "children": [
           {
-            "id": "55d67cd513e98c43",
+            "id": "5defdfda3f0d7668",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "部署文档/Harbor 部署.md",
+                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "查看远程镜像关联的 Tag 列表"
+            }
+          },
+          {
+            "id": "a635eef593642425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作文档/代理设置.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "代理设置"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "180c29e45228a2b8",
+    "id": "7ee6b410988015c1",
     "type": "split",
     "children": [
       {
-        "id": "e820f181d10adbe8",
+        "id": "97cc379478f8f432",
         "type": "tabs",
         "children": [
           {
-            "id": "0d17ec6a7375be8e",
+            "id": "efce21278eb61a8f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
-            "id": "494fea9a1143d2c9",
+            "id": "1af678d287889986",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,15 +73,19 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
-            "id": "dad0f98a275b72d5",
+            "id": "8c007dac2d979981",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -72,20 +95,19 @@
     "width": 300
   },
   "right": {
-    "id": "1a85516bc8bd31f3",
+    "id": "8f2b91f662211e1c",
     "type": "split",
     "children": [
       {
-        "id": "3b4ddbb209635269",
+        "id": "ebd2a0dc12c52098",
         "type": "tabs",
         "children": [
           {
-            "id": "9b55da0c9945bd44",
+            "id": "8a19917769729e36",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "部署文档/Harbor 部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,56 +115,66 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
-            "id": "6c0cd4094dbb0868",
+            "id": "d61a95f6c5141992",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "部署文档/Harbor 部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
-            "id": "c38a462555f8146b",
+            "id": "de5fe31a31a42869",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
-            "id": "739d214ff9777925",
+            "id": "7fb2640c12d6b43d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "部署文档/Harbor 部署.md"
-              }
+                "file": "操作文档/代理设置.md"
+              },
+              "icon": "lucide-list",
+              "title": "代理设置 的大纲"
             }
           },
           {
-            "id": "3b9a0e1303ddc69f",
+            "id": "ca77c2e85bb27162",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 351.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,44 +183,41 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55d67cd513e98c43",
+  "active": "a635eef593642425",
   "lastOpenFiles": [
-    "部署文档/README.md",
-    "部署文档/Harbor 部署.md",
+    "操作文档/查看远程镜像关联的 Tag 列表.md",
+    "操作文档/代理设置.md",
+    "部署文档/二进制包部署 Docker.md",
+    "部署文档/一键部署 Docker.md",
+    "Kubernetes 相关/部署 Prometheus-operator.md",
+    "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
     "Linux系统管理/用户管理.md",
     "Linux系统管理/FHS：文件系统层次结构标准.md",
-    "Linux系统管理/man page.md",
     "Linux系统管理/PS1：配置命令提示符.md",
     "Linux系统管理/ANSI转义序列.md",
-    "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
-    "Linux系统管理",
-    "Kubernetes 相关/部署 Prometheus-operator.md",
-    "Kubernetes 相关/清理 Helm release secret.md",
-    "Kubernetes 相关/kubectl 常用命令.md",
-    "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
-    "Kubernetes 相关/README.md",
-    "操作文档/nano 使用说明.md",
-    "操作文档/Zsh & Fish 安装.md",
-    "Shell其实很简单/2. 探索Shell世界：Bash、Zsh、Fish等各类Shell的特点与实战.md",
-    "Shell其实很简单/1. 什么是Shell及其在操作系统中的角色.md",
-    "部署文档/二进制包部署 RocketMQ.md",
-    "Shell其实很简单/imgs/shell.png",
-    "部署文档/Docker 部署 Kuboard.md",
-    "Shell其实很简单/imgs",
-    "Shell其实很简单",
-    "Linux基础/1. 终端和交互式接口.md",
-    "Linux基础",
-    "操作文档/查看远程镜像关联的 Tag 列表.md",
-    "部署文档/Docker 部署 Gitlab.md",
-    "操作文档/腾讯云对象存储 CLI 简单使用.md",
-    "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
-    "未命名.md",
+    "操作文档/扩展 LVM 分区.md",
     "操作文档/Ubuntu 20 系统初始化配置.md",
+    "操作文档/nano 使用说明.md",
+    "部署文档/二进制包部署 RocketMQ.md",
+    "部署文档/二进制包部署 JDK.md",
+    "部署文档/README.md",
+    "部署文档/Harbor 部署.md",
+    "部署文档/Docker 部署 Minio.md",
+    "部署文档/Docker 部署 Kuboard.md",
+    "部署文档/Docker 部署 Gitlab.md",
     "部署文档",
+    "操作文档/Zsh & Fish 安装.md",
     "操作文档",
+    "Linux系统管理",
+    "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
+    "Kubernetes 相关/清理 Helm release secret.md",
+    "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
+    "Kubernetes 相关/kubectl 常用命令.md",
+    "Kubernetes 相关/README.md",
     "Kubernetes 相关"
   ]
 }
