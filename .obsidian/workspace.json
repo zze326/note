@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d0def31af83a630f",
+        "id": "ca50dff9703822b8",
         "type": "tabs",
         "children": [
           {
-            "id": "5defdfda3f0d7668",
+            "id": "8f0078b517cba4ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作文档/查看远程镜像关联的 Tag 列表.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "查看远程镜像关联的 Tag 列表"
-            }
-          },
-          {
-            "id": "a635eef593642425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作文档/代理设置.md",
+                "file": "Kubernetes 相关/NGINX ingress controller 透传客户端 IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代理设置"
+              "title": "NGINX ingress controller 透传客户端 IP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作文档/代理设置.md"
+                "file": "Linux系统管理/LVM.md"
               },
               "icon": "lucide-list",
-              "title": "代理设置 的大纲"
+              "title": "LVM 的大纲"
             }
           },
           {
@@ -173,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,37 +171,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a635eef593642425",
+  "active": "8f0078b517cba4ec",
   "lastOpenFiles": [
+    "Kubernetes 相关/NGINX ingress controller 透传客户端 IP.md",
+    "Linux系统管理/LVM.md",
+    "未命名.canvas",
+    "Linux系统管理/PS1：配置命令提示符.md",
+    "Linux系统管理/FHS：文件系统层次结构标准.md",
     "操作文档/查看远程镜像关联的 Tag 列表.md",
-    "操作文档/代理设置.md",
+    "部署文档/二进制包部署 JDK.md",
     "部署文档/二进制包部署 Docker.md",
+    "操作文档/nano 使用说明.md",
+    "操作文档/Zsh & Fish 安装.md",
+    "操作文档/Ubuntu 20 系统初始化配置.md",
+    "操作文档/扩展 LVM 分区.md",
+    "操作文档/代理设置.md",
     "部署文档/一键部署 Docker.md",
     "Kubernetes 相关/部署 Prometheus-operator.md",
     "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
     "Linux系统管理/用户管理.md",
-    "Linux系统管理/FHS：文件系统层次结构标准.md",
-    "Linux系统管理/PS1：配置命令提示符.md",
     "Linux系统管理/ANSI转义序列.md",
-    "操作文档/扩展 LVM 分区.md",
-    "操作文档/Ubuntu 20 系统初始化配置.md",
-    "操作文档/nano 使用说明.md",
     "部署文档/二进制包部署 RocketMQ.md",
-    "部署文档/二进制包部署 JDK.md",
     "部署文档/README.md",
     "部署文档/Harbor 部署.md",
     "部署文档/Docker 部署 Minio.md",
     "部署文档/Docker 部署 Kuboard.md",
     "部署文档/Docker 部署 Gitlab.md",
     "部署文档",
-    "操作文档/Zsh & Fish 安装.md",
     "操作文档",
     "Linux系统管理",
     "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
     "Kubernetes 相关/清理 Helm release secret.md",
     "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
-    "Kubernetes 相关/kubectl 常用命令.md",
-    "Kubernetes 相关/README.md",
     "Kubernetes 相关"
   ]
 }
