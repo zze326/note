@@ -28,6 +28,6 @@ metadata:
 - `use-forwarded-headers = true`
 启用此选项后，NGINX Ingress Controller 将信任并使用传入请求中的 `X-Forwarded-*` 头部信息（包括但不限于 `X-Forwarded-For`），而不是依赖于直接连接到它的客户端的信息。这对于部署在云服务提供商后面或通过其他类型的反向代理访问的应用程序特别有用。
 
-**用途：让 NGINX Ingress Controller 正确解析和应用由上游代理添加的 X-Forwarded-* 头部。**
+**用途：让 NGINX Ingress Controller 正确解析和应用由上游代理添加的 `X-Forwarded-*` 头部。**
 
 注意事项：同样需要注意安全性问题，因为这使得 NGINX 相信任何提供给它的 X-Forwarded-* 头部内容。因此，应当仅在受控环境下启用，并且要确保只有可信赖的代理能够设置这些头部。
