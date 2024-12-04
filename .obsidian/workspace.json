@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca50dff9703822b8",
+        "id": "2c74899d982853d4",
         "type": "tabs",
         "children": [
           {
-            "id": "8f0078b517cba4ec",
+            "id": "0728a69280755ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes 相关/NGINX ingress controller 透传客户端 IP.md",
+                "file": "Kubernetes 相关/调试用的镜像.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NGINX ingress controller 透传客户端 IP"
+              "title": "调试用的镜像"
             }
           }
         ]
@@ -171,8 +171,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f0078b517cba4ec",
+  "active": "0728a69280755ec6",
   "lastOpenFiles": [
+    "Kubernetes 相关/调试用的镜像.md",
+    "Kubernetes 相关/README.md",
+    "Linux系统管理/用户管理.md",
+    "部署文档/README.md",
     "Kubernetes 相关/NGINX ingress controller 透传客户端 IP.md",
     "Linux系统管理/LVM.md",
     "未命名.canvas",
@@ -189,10 +193,8 @@
     "部署文档/一键部署 Docker.md",
     "Kubernetes 相关/部署 Prometheus-operator.md",
     "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
-    "Linux系统管理/用户管理.md",
     "Linux系统管理/ANSI转义序列.md",
     "部署文档/二进制包部署 RocketMQ.md",
-    "部署文档/README.md",
     "部署文档/Harbor 部署.md",
     "部署文档/Docker 部署 Minio.md",
     "部署文档/Docker 部署 Kuboard.md",
@@ -201,8 +203,6 @@
     "操作文档",
     "Linux系统管理",
     "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
-    "Kubernetes 相关/清理 Helm release secret.md",
-    "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
     "Kubernetes 相关"
   ]
 }
