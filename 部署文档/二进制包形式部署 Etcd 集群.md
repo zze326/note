@@ -1,6 +1,6 @@
-> 官方文档：<https://etcd.io/docs/v3.5/tutorials/how-to-setup-cluster/>。
-> Github Releases：<https://github.com/etcd-io/etcd/releases/>。
-> 华为镜像站：<https://mirrors.huaweicloud.com/etcd/>。
+> - 官方文档：<https://etcd.io/docs/v3.5/tutorials/how-to-setup-cluster/>。
+> - Github Releases：<https://github.com/etcd-io/etcd/releases/>。
+> - 华为镜像站：<https://mirrors.huaweicloud.com/etcd/>。
 
 # 主机准备
 我这里准备三台主机：
