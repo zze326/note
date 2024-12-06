@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "资源/国内开源镜像站.md",
+                "file": "部署文档/二进制包形式部署 Etcd 集群.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "国内开源镜像站"
+              "title": "二进制包形式部署 Etcd 集群"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux系统管理/LVM.md"
+                "file": "部署文档/二进制包形式部署 Etcd 集群.md"
               },
               "icon": "lucide-list",
-              "title": "LVM 的大纲"
+              "title": "二进制包形式部署 Etcd 集群 的大纲"
             }
           },
           {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,6 +173,10 @@
   },
   "active": "8a9d717897458964",
   "lastOpenFiles": [
+    "部署文档/二进制包形式部署 Elasticsearch 7 集群.md",
+    "部署文档/二进制包形式部署 Etcd 集群.md",
+    "部署文档/二进制包部署 JDK.md",
+    "部署文档/README.md",
     "资源/国内开源镜像站.md",
     "资源",
     "Linux系统管理/LVM 入门使用.md",
@@ -183,13 +187,11 @@
     "Kubernetes 相关/调试用的镜像.md",
     "Kubernetes 相关/README.md",
     "Linux系统管理/用户管理.md",
-    "部署文档/README.md",
     "Linux系统管理/LVM.md",
     "未命名.canvas",
     "Linux系统管理/PS1：配置命令提示符.md",
     "Linux系统管理/FHS：文件系统层次结构标准.md",
     "操作文档/查看远程镜像关联的 Tag 列表.md",
-    "部署文档/二进制包部署 JDK.md",
     "部署文档/二进制包部署 Docker.md",
     "操作文档/nano 使用说明.md",
     "操作文档/Zsh & Fish 安装.md",
@@ -202,8 +204,6 @@
     "Linux系统管理/ANSI转义序列.md",
     "部署文档/二进制包部署 RocketMQ.md",
     "部署文档/Harbor 部署.md",
-    "部署文档/Docker 部署 Minio.md",
-    "部署文档/Docker 部署 Kuboard.md",
     "部署文档",
     "操作文档",
     "Linux系统管理",
