@@ -33,7 +33,7 @@ save 3600 1
 save 300 100
 save 60 10000
 ```
-在三台主机创建数据目录和日志目录并配置环境变量：
+创建数据目录和日志目录并配置环境变量：
 ```sh
 $ mkdir -p /data/redis/logs
 $ cat << EOF > /etc/profile.d/redis.sh

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "147f7239d0f5d6d0",
+        "id": "189844f4a2d2ca5c",
         "type": "tabs",
         "children": [
           {
-            "id": "e63a0b2d8eeacf71",
+            "id": "c790762c8434e4cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux 系统管理/FHS：文件系统层次结构标准.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "FHS：文件系统层次结构标准"
+              "title": "新标签页"
             }
           }
         ]
@@ -136,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linux 系统管理/FHS：文件系统层次结构标准.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "FHS：文件系统层次结构标准 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -171,8 +165,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e63a0b2d8eeacf71",
+  "active": "c790762c8434e4cb",
   "lastOpenFiles": [
+    "部署文档/STD.3. Redis 7 单节点.md",
+    "Linux 系统管理/FHS：文件系统层次结构标准.md",
     "Linux 系统管理/ANSI 转义序列.md",
     "Kubernetes 相关/6. 调试用的镜像.md",
     "Kubernetes 相关/4. 清理 Helm release secret.md",
@@ -185,7 +181,6 @@
     "操作文档/3. 扩展 LVM 分区.md",
     "操作文档/2. 查看远程镜像关联的 Tag 列表.md",
     "Linux 系统管理/用户管理.md",
-    "Linux 系统管理/FHS：文件系统层次结构标准.md",
     "Linux 系统管理/PS1：配置命令提示符.md",
     "操作文档/Zsh & Fish 安装.md",
     "操作文档/1. 代理设置.md",
@@ -198,7 +193,6 @@
     "部署文档/DKR1. Gitlab.md",
     "部署文档/DKR2. Kuboard.md",
     "部署文档/STD.2. Harbor .md",
-    "部署文档/STD.5. Redis 7 分片集群.md",
     "资源",
     "部署文档",
     "操作文档",
