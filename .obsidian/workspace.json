@@ -11,10 +11,14 @@
             "id": "d73f0b5eeb51774d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "部署文档/二进制包部署 Elasticsearch 7 集群.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "二进制包部署 Elasticsearch 7 集群"
             }
           }
         ]
@@ -132,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "部署文档/二进制包部署 Elasticsearch 7 集群.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "二进制包部署 Elasticsearch 7 集群 的大纲"
             }
           },
           {
@@ -167,11 +173,11 @@
   },
   "active": "d73f0b5eeb51774d",
   "lastOpenFiles": [
+    "部署文档/二进制包部署 Etcd 集群.md",
     "部署文档/Redis 7 主从、哨兵集群部署.md",
     "部署文档/Redis 7 分片集群部署.md",
     "部署文档/Redis 7 单节点部署.md",
-    "部署文档/二进制包形式部署 Elasticsearch 7 集群.md",
-    "部署文档/二进制包形式部署 Etcd 集群.md",
+    "部署文档/二进制包部署 Elasticsearch 7 集群.md",
     "资源/国内开源镜像站.md",
     "资源",
     "Kubernetes 相关/调试用的镜像.md",
