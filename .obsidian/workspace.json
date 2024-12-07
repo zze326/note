@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4fcf51c69ee918c4",
+        "id": "147f7239d0f5d6d0",
         "type": "tabs",
         "children": [
           {
-            "id": "d73f0b5eeb51774d",
+            "id": "e63a0b2d8eeacf71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "部署文档/二进制包部署 Elasticsearch 7 集群.md",
+                "file": "Linux 系统管理/FHS：文件系统层次结构标准.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二进制包部署 Elasticsearch 7 集群"
+              "title": "FHS：文件系统层次结构标准"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "部署文档/二进制包部署 Elasticsearch 7 集群.md"
+                "file": "Linux 系统管理/FHS：文件系统层次结构标准.md"
               },
               "icon": "lucide-list",
-              "title": "二进制包部署 Elasticsearch 7 集群 的大纲"
+              "title": "FHS：文件系统层次结构标准 的大纲"
             }
           },
           {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,38 +171,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d73f0b5eeb51774d",
+  "active": "e63a0b2d8eeacf71",
   "lastOpenFiles": [
-    "部署文档/二进制包部署 Etcd 集群.md",
-    "部署文档/Redis 7 主从、哨兵集群部署.md",
-    "部署文档/Redis 7 分片集群部署.md",
-    "部署文档/Redis 7 单节点部署.md",
-    "部署文档/二进制包部署 Elasticsearch 7 集群.md",
+    "Linux 系统管理/ANSI 转义序列.md",
+    "Kubernetes 相关/6. 调试用的镜像.md",
+    "Kubernetes 相关/4. 清理 Helm release secret.md",
+    "Kubernetes 相关/5. NGINX ingress controller 透传客户端 IP.md",
+    "Kubernetes 相关/3. kubectl 的命令行插件 - Krew.md",
+    "Kubernetes 相关/2. kubectl 常用命令.md",
+    "Kubernetes 相关/1. 阿里云 ACK Service 绑定已有的 lb.md",
     "资源/国内开源镜像站.md",
-    "资源",
-    "Kubernetes 相关/调试用的镜像.md",
-    "Kubernetes 相关/NGINX ingress controller 透传客户端 IP.md",
-    "Kubernetes 相关/kubectl 常用命令.md",
-    "Kubernetes 相关/kubectl 的命令行插件 - Krew.md",
-    "Kubernetes 相关/README.md",
-    "Kubernetes 相关/清理 Helm release secret.md",
-    "Kubernetes 相关/部署最新版 Nginx ingress controller.md",
-    "Kubernetes 相关/部署 Prometheus-operator.md",
-    "Kubernetes 相关/阿里云 ACK Service 绑定已有的 lb.md",
+    "操作文档/4. Ubuntu 系统初始化配置.md",
+    "操作文档/3. 扩展 LVM 分区.md",
+    "操作文档/2. 查看远程镜像关联的 Tag 列表.md",
+    "Linux 系统管理/用户管理.md",
+    "Linux 系统管理/FHS：文件系统层次结构标准.md",
+    "Linux 系统管理/PS1：配置命令提示符.md",
     "操作文档/Zsh & Fish 安装.md",
-    "操作文档/Ubuntu 20 系统初始化配置.md",
-    "操作文档/查看远程镜像关联的 Tag 列表.md",
-    "操作文档/代理设置.md",
-    "部署文档/二进制包部署 Docker.md",
-    "部署文档/一键部署 Docker.md",
-    "Linux系统管理/用户管理.md",
-    "Linux系统管理/FHS：文件系统层次结构标准.md",
-    "Linux系统管理/PS1：配置命令提示符.md",
-    "Linux系统管理/ANSI转义序列.md",
-    "操作文档/扩展 LVM 分区.md",
+    "操作文档/1. 代理设置.md",
+    "操作文档/nano 使用说明.md",
+    "部署文档/README.md",
+    "部署文档/DKR3. Minio.md",
+    "部署文档/K8S.2. Prometheus-operator.md",
+    "部署文档/STD.1. 一键部署 Docker.md",
+    "部署文档/K8S.1. 最新版 Nginx ingress controller.md",
+    "部署文档/DKR1. Gitlab.md",
+    "部署文档/DKR2. Kuboard.md",
+    "部署文档/STD.2. Harbor .md",
+    "部署文档/STD.5. Redis 7 分片集群.md",
+    "资源",
     "部署文档",
     "操作文档",
-    "Linux系统管理",
+    "Linux 系统管理",
     "Kubernetes 相关"
   ]
 }
