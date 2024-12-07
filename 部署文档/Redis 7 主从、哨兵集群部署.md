@@ -1,9 +1,12 @@
 > 华为镜像站地址：<https://mirrors.huaweicloud.com/redis/>。
 
-准备三台主机：
-- redis01：192.168.0.21；
-- redis02：192.168.0.22；
-- redis03：192.168.0.33；
+3 台主机：
+
+| 系统       | IP           | 主机名     |
+| -------- | ------------ | ------- |
+| CentOS 7 | 192.168.0.21 | redis01 |
+| CentOS 7 | 192.168.0.22 | redis02 |
+| CentOS 7 | 192.168.0.23 | redis03 |
 # 主从集群
 下面操作先 `redis01` 主机执行。
 
@@ -42,8 +45,11 @@ save 3600 1
 save 300 100
 save 60 10000
 ```
-将 `/opt/redis` 拷贝到 `redis02` 和 `redis03` 主机。
-
+从 `redis01` 将 `/opt/redis` 拷贝到 `redis02` 和 `redis03` 主机。
+```sh
+$ scp -rp /opt/redis 192.168.0.22:/opt/
+$ scp -rp /opt/redis 192.168.0.23:/opt/
+```
 编辑 `redis02` 和 `redis03` 主机的 `/opt/redis/redis.conf`，在底部加上如下配置：
 ```
 replicaof 192.168.0.21 6379
@@ -89,7 +95,7 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/opt/redis/bin/redis-server /opt/redis/redis.conf --daemonize yes
+ExecStart=/opt/redis/bin/redis-server /opt/redis/redis.conf
 ExecStop=/opt/redis/redis-cli -p 6379 -a 123456 shutdown
 Restart=always
 #User=redis
@@ -142,12 +148,12 @@ slave1:ip=192.168.0.22,port=6379,state=online,offset=55483,lag=0
 master_failover_state:no-failover
 ...
 ```
-停掉 redis01：
+停掉 `redis01` 主机：
 ```sh
 $ systemctl stop redis
 ```
 
-在 redis03 查看复制信息：
+在 `redis03` 主机查看复制信息：
 ```sh
 $ redis-cli -a 123456
 Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.
@@ -160,7 +166,7 @@ master_link_status:up
 ...
 ```
 
-启动 redis01：
+启动 `redis01` ：
 ```sh
 $ systemctl start redis
 ```
@@ -177,7 +183,7 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/opt/redis/bin/redis-sentinel /opt/redis/sentinel.conf --daemonize yes
+ExecStart=/opt/redis/bin/redis-sentinel /opt/redis/sentinel.conf
 ExecStop=/opt/redis/bin/redis-cli -p 26379 shutdown
 Restart=always
 #User=app
