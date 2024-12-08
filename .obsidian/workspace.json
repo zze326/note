@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d2197f9c20dace9",
+        "id": "4d61945e9e56167f",
         "type": "tabs",
         "children": [
           {
-            "id": "ed3bf9ecb41593ee",
+            "id": "a806c7be9cd2d480",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "部署文档/BIN.6. Helm.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BIN.6. Helm"
+              "title": "新标签页"
             }
           }
         ]
@@ -136,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "部署文档/BIN.6. Helm.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "BIN.6. Helm 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -171,11 +165,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed3bf9ecb41593ee",
+  "active": "a806c7be9cd2d480",
   "lastOpenFiles": [
+    "操作文档/1. 代理设置.md",
+    "部署文档/DKR2. Kuboard.md",
+    "部署文档/DKR1. Gitlab.md",
+    "部署文档/BIN.2. JDK.md",
+    "部署文档/BIN.6. Helm.md",
     "资源/国内开源镜像站.md",
     "部署文档/BIN.5. Elasticsearch 7 集群.md",
-    "部署文档/BIN.6. Helm.md",
     "部署文档/STD.3. Redis 7 单节点.md",
     "Linux 系统管理/FHS：文件系统层次结构标准.md",
     "Linux 系统管理/ANSI 转义序列.md",
@@ -191,14 +189,10 @@
     "Linux 系统管理/用户管理.md",
     "Linux 系统管理/PS1：配置命令提示符.md",
     "操作文档/Zsh & Fish 安装.md",
-    "操作文档/1. 代理设置.md",
     "操作文档/nano 使用说明.md",
     "部署文档/README.md",
     "部署文档/DKR3. Minio.md",
     "部署文档/K8S.2. Prometheus-operator.md",
-    "部署文档/STD.1. 一键部署 Docker.md",
-    "部署文档/K8S.1. 最新版 Nginx ingress controller.md",
-    "部署文档/DKR1. Gitlab.md",
     "资源",
     "部署文档",
     "操作文档",
