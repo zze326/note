@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4d61945e9e56167f",
+        "id": "b68c74b9cd1be37d",
         "type": "tabs",
         "children": [
           {
-            "id": "a806c7be9cd2d480",
+            "id": "054ad3d7447d5f0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "部署文档/K8S.2. Prometheus-operator.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "K8S.2. Prometheus-operator"
             }
           }
         ]
@@ -132,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "部署文档/K8S.2. Prometheus-operator.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "K8S.2. Prometheus-operator 的大纲"
             }
           },
           {
@@ -148,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,38 +171,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a806c7be9cd2d480",
+  "active": "054ad3d7447d5f0a",
   "lastOpenFiles": [
-    "操作文档/1. 代理设置.md",
+    "新建 文本文档.txt",
+    "部署文档/Redis 7 主从、哨兵集群部署.md",
+    "部署文档/STD.5. Redis 7 分片集群.md",
+    "部署文档/STD.4. Redis 7 主从、哨兵集群.md",
+    "部署文档/STD.3. Redis 7 单节点.md",
+    "部署文档/STD.2. Harbor .md",
+    "部署文档/STD.1. 一键部署 Docker.md",
+    "部署文档/K8S.2. Prometheus-operator.md",
+    "部署文档/K8S.1. 最新版 Nginx ingress controller.md",
+    "部署文档/DKR3. Minio.md",
     "部署文档/DKR2. Kuboard.md",
     "部署文档/DKR1. Gitlab.md",
-    "部署文档/BIN.2. JDK.md",
     "部署文档/BIN.6. Helm.md",
-    "资源/国内开源镜像站.md",
     "部署文档/BIN.5. Elasticsearch 7 集群.md",
-    "部署文档/STD.3. Redis 7 单节点.md",
-    "Linux 系统管理/FHS：文件系统层次结构标准.md",
-    "Linux 系统管理/ANSI 转义序列.md",
-    "Kubernetes 相关/6. 调试用的镜像.md",
-    "Kubernetes 相关/4. 清理 Helm release secret.md",
-    "Kubernetes 相关/5. NGINX ingress controller 透传客户端 IP.md",
-    "Kubernetes 相关/3. kubectl 的命令行插件 - Krew.md",
-    "Kubernetes 相关/2. kubectl 常用命令.md",
-    "Kubernetes 相关/1. 阿里云 ACK Service 绑定已有的 lb.md",
+    "部署文档/BIN.4. Etcd 集群.md",
+    "部署文档/BIN.3. RocketMQ.md",
+    "部署文档/BIN.2. JDK.md",
+    "部署文档/BIN.1. Docker.md",
     "操作文档/4. Ubuntu 系统初始化配置.md",
     "操作文档/3. 扩展 LVM 分区.md",
     "操作文档/2. 查看远程镜像关联的 Tag 列表.md",
+    "操作文档/1. 代理设置.md",
     "Linux 系统管理/用户管理.md",
+    "Linux 系统管理/FHS：文件系统层次结构标准.md",
+    "Linux 系统管理/ANSI 转义序列.md",
     "Linux 系统管理/PS1：配置命令提示符.md",
-    "操作文档/Zsh & Fish 安装.md",
-    "操作文档/nano 使用说明.md",
-    "部署文档/README.md",
-    "部署文档/DKR3. Minio.md",
-    "部署文档/K8S.2. Prometheus-operator.md",
+    "Linux 系统管理",
     "资源",
+    "Linux系统管理/imgs/IMG20241204100002.png",
+    "Linux系统管理/imgs/IMG20241204095804.png",
+    "Linux系统管理/imgs",
+    "未命名.canvas",
     "部署文档",
     "操作文档",
-    "Linux 系统管理",
+    "Linux系统管理",
     "Kubernetes 相关"
   ]
 }
