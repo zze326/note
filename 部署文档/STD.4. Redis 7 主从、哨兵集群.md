@@ -320,11 +320,6 @@ $ redis-cli -h 127.0.0.1 -p 6388 -a 123456
 $ curl 127.0.0.1:9101/metrics
 ```
 
-9101 端口是给 prometheus 采集 metrics 的端口：
-```sh
-$ curl 127.0.0.1:9101/metrics
-```
-
 8888 用来做健康检查（用 k8s 部署可以用）：
 ```sh
 $ curl 127.0.0.1:8888/healthz
