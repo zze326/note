@@ -20,9 +20,9 @@ EOF
 ```
 > 其中的 `JAVA_HOME` 根据实际解压位置修改。
 
-重新连接会话或手动加载一下 `/etc/profile`：
+重新连接会话或手动加载一下 `/etc/profile.d/jdk8.sh`：
 ```bash
-source /etc/profile
+source /etc/profile.d/jdk8.sh
 ```
 执行 `java` 命令确认环境信息：
 ```bash
